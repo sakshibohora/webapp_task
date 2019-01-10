@@ -1,30 +1,3 @@
-/*let http=require('http');
-let url=require('url');
-
-let handleRequest=(request,response)=>{
-	if(request.method == 'GET'){
-		response.write(`<form name="frm" action="details.html" method="post"><input type="submit" name="Next"></form>`);
-	}
-	if(request.method == 'POST'){
-		response.write(`<form name="frm" method="post" action="http://localhost:1111/print_details">
-		<table>
-			<tr>
-				<td>Name:</td>
-				<td><input type="text" name="name"></td>
-			</tr>
-			<tr>
-				<td>Company Name:</td>
-				<td><input type="text" name="cname"></td>
-			</tr>
-		</table>
-		<input type="submit" name="submit">
-	</form>`)
-	}
-}
-http.createServer(handleRequest).listen(1234);*/
-
-
-
 let http = require('http');
 let url = require('url');
 
